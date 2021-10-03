@@ -800,7 +800,7 @@ h4 {
   grid-column: 2/3;
   width: 800px;
   height: auto;
-  background-color: #fff;
+  background-color: #f7f6f6;
   justify-self: center;
   -ms-flex-item-align: center;
       align-self: center;
