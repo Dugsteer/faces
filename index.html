@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=" A fun, free  online vocabulary game for learning English from Esl-ology.com"
+    />
+    <meta
+      name="keywords"
+      content="Name three list vocabulary online ESL game"
+    />
+    <title>Name Three Things Game</title>
+    <link rel="icon" type="image/png" href="favicon.png" ; />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="csi.min.js"></script>
+    <script
+      data-ad-client="ca-pub-6192312197226967"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+  </head>
+  <body>
+    <div class="loader-div" id="loaderDiv" onload="checkForTop();">
+      <div class="loader-container">
+        <img class="apple ghost" src="img/loader/apple.png" alt="" />
+        <img class="pears ghost" src="img/loader/pears.png" alt="" />
+        <img class="plums ghost" src="img/loader/plums.png" alt="" />
+      </div>
+    </div>
+
+    <div class="nav-bar" id="navbar">
+      <a href="index.html" class="nav-bar__logo">
+        <svg class="icon-header nav-bar__logo-img">
+          <use xlink:href="sprite2.svg#Buho" onclick="scrollUp()"></use>
+        </svg>
+      </a>
+      <h3 class="nav-bar__title">Esl-Ology.Com</h3>
+      <div class="nav-bar__title-page">
+        <span class="nav-bar__title-page-main" id="pageTitle"
+          >NAME THREE...</span
+        >
+      </div>
+      <div class="nav-bar__links">
+        <a href="index.html" class="nav-bar__link link3">Home</a>
+        <svg
+          viewBox="0 0 100 80"
+          width="40"
+          height="20"
+          onclick="toggler();"
+          id="menu"
+          class="menu"
+        >
+          <rect width="100" height="12"></rect>
+          <rect y="30" width="100" height="12"></rect>
+          <rect y="60" width="100" height="12"></rect>
+        </svg>
+      </div>
+    </div>
+
+    <div id="wrapper" class="wrapper">
+      <div class="sense">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
+
+        <ins
+          class="adsbygoogle"
+          style="display: block"
+          data-ad-client="ca-pub-6192312197226967"
+          data-ad-slot="3073690633"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="sidebar-container" id="sidebar">
+        <div data-include="sidebar.html"></div>
+      </div>
+
+      <div class="introduction">
+        <div class="picsdiv">
+          <div class="introduction__img" onclick="turnMe();" id="mainpic">
+            <div id="orange" class="orange">
+              <img src="img/mainpic/Orange1.png" />
+            </div>
+            <img src="img/mainpic/oranges.png" />
+          </div>
+        </div>
+        <div class="introduction__text">
+          <h1>CAN YOU GUESS NUMBER ONE?</h1>
+          <p>
+            Name three things in each category and score points according to the
+            table. Currently there are ten categories:<span class="bluey">
+              places to eat, vehicles, fruits, weather, pets, clothes, colors,
+              jobs, places in town</span
+            >
+            and<span class="bluey"> sports.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="game-container">
+        <div class="container">
+          <div class="top">
+            <h2 class="header" id="answer0">NAME THREE...</h2>
+          </div>
+          <div class="div1">
+            <p class="answers" id="answer1"></p>
+          </div>
+          <div class="points-div">10</div>
+
+          <div class="div2">
+            <p class="answers" id="answer4"></p>
+          </div>
+          <div class="points-div">3</div>
+
+          <div class="div3">
+            <p class="answers" id="answer2"></p>
+          </div>
+          <div class="points-div">5</div>
+
+          <div class="div4">
+            <p class="answers" id="answer5"></p>
+          </div>
+          <div class="points-div">2</div>
+
+          <div class="div5">
+            <p class="answers" id="answer3"></p>
+          </div>
+          <div class="points-div">4</div>
+
+          <div class="div6">
+            <p class="answers" id="answer6"></p>
+          </div>
+          <div class="points-div">15</div>
+        </div>
+        <div class="press">
+          <button class="but" onclick="mainlist();">Click</button>
+        </div>
+      </div>
+
+      <div class="sense-bottom">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
+        <!-- Vertical ad -->
+        <ins
+          class="adsbygoogle"
+          style="display: block"
+          data-ad-client="ca-pub-6192312197226967"
+          data-ad-slot="3073690633"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+      <div class="links">
+        <p class="links__text">Try our other TEFL games.</p>
+        <div class="links__images">
+          <div class="links__images-1 figure">
+            <a href="flashcard-foods.html">
+              <img src="img/Flashcard-food.jpg" alt=""
+            /></a>
+            <figcaption>Photo Flashcards</figcaption>
+          </div>
+          <div class="links__images-1 figure">
+            <a href="bingo-clothes.html">
+              <img src="img/BingoFood.jpg" alt=""
+            /></a>
+            <figcaption>Bingo with Printable Cards</figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__copyright" id="footer">
+        <p>© 2021 Copyright Esl-ology.com & copyright owners.</p>
+        <p>
+          Vectors & images by
+          <a href="https://www.vecteezy.com">Vecteezy</a>&nbsp&nbsp<a
+            href="https://pixabay.com"
+            >Pixabay</a
+          >&nbsp&nbsp<a href="https://unsplash.com">Unsplash </a>. Icons made by
+          <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com</a
+          >
+          Thanks,guys!
+        </p>
+      </div>
+    </footer>
+
+    <div class="hidden">
+      <img src="sprite2.svg" style="display: none" />
+      <script>
+        <!--//--><![CDATA[//><!--
+        var images = new Array();
+        function preload() {
+          for (i = 0; i < preload.arguments.length; i++) {
+            images[i] = new Image();
+            images[i].src = preload.arguments[i];
+          }
+        }
+        preload();
+        //--><!]]>
+      </script>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
